@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class Questao1 {
     public static void main(String args[]) { 
-
-        int n;
+        
+    	int n;
         Scanner entrada = new Scanner(System.in);
         System.out.print("Quantidade de Degraus na Escada: ");
         n = entrada.nextInt();
+        entrada.close();
+        
         System.out.println(" ");
 
         for (int i = 0; i < n; i++) {
@@ -20,6 +22,5 @@ public class Questao1 {
             }
             System.out.println();
         }
-        entrada.close();
     }
 }

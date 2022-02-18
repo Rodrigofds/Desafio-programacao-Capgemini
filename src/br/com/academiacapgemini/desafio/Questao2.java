@@ -8,7 +8,7 @@ public class Questao2 {
     public static void main(String[] args) {
 
         List<String> specialChars = Arrays.asList("!","@","#","$","%","^","&","*","(",")","-","+");
-        String nome;
+        String login;
         String senha;
         int maiusculas = 1;
         int minusculas = 1;
@@ -16,11 +16,12 @@ public class Questao2 {
         int caracterEspecial = 1;
         
         Scanner entrada = new Scanner(System.in);
-        System.out.print("Digite seu nome: ");
-        nome = entrada.next();
+        System.out.print("Login: ");
+        login = entrada.next();
 
         System.out.print("Senha: ");
         senha = entrada.next();
+        entrada.close();
 
         if(senha.length() < 6){
             System.out.println(6 - senha.length());
@@ -35,7 +36,6 @@ public class Questao2 {
                 } else if (Character.isUpperCase(c)) {
                     maiusculas = 0;
                 }
-    
             }
     
             for (String caracter : specialChars) {
@@ -46,9 +46,6 @@ public class Questao2 {
 
 	        int retorno = numeros + minusculas + maiusculas + caracterEspecial;
 	        System.out.println(retorno);
-
-        }
-        entrada.close();      
+        }      
     } 
 }
-
