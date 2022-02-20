@@ -2,6 +2,11 @@ package br.com.academiacapgemini.desafio;
 
 import java.util.Scanner;
 
+/**
+ * @author Rodrigo Ferreira
+ * @version 1.0.0
+ * 
+ * */
 public class Questao3 {
         public static void main(String[] args) {
         

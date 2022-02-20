@@ -6,10 +6,10 @@ import org.junit.Test;
 import br.com.academiacapgemini.desafio.Senha;
 
 /**
- * Questao2Test - Responsável pelos testes da Classe Questao2
+ * @author Rodrigo Ferreira
+ * @version 1.0.0
  * 
- * Checa a quantidade de digitos necessários faltantes
- * para que a senha seja considerada forte.
+ * Questao2Test - Responsável pelos testes da Classe Questao2
  * 
  * *** Requisitos necessários para senha forte ***
  * 
@@ -17,7 +17,7 @@ import br.com.academiacapgemini.desafio.Senha;
  * Contém no mínimo 1 digito.
  * Contém no mínimo 1 letra em minúsculo.
  * Contém no mínimo 1 letra em maiúsculo.
- * Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
+ * Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^*()-+
  *  
  * */
 public class Questao2Test {

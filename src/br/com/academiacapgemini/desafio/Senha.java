@@ -3,6 +3,11 @@ package br.com.academiacapgemini.desafio;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author Rodrigo Ferreira
+ * @version 1.0.0
+ * 
+ * */
 public class Senha {
 	
 	List<String> specialChars = Arrays.asList("!","@","#","$","%","^","&","*","(",")","-","+");
@@ -16,6 +21,18 @@ public class Senha {
 		
 	}
 	
+	/**
+	 * Método que se encarrega checar se a senha informada
+	 * é fraca ou forte.
+	 * 
+	 * @param senha Recebe como paramentro uma String que
+	 * é informanda pelo usuário.
+	 * 
+	 * @return retorno Retornará um inteiro igual
+	 * a 0(zero) se a senha atender a todos os requisitos ou
+	 * irá retornar um interio maior que 0(zero) informando a
+	 * quantidade de digitos que faltam para atender os requisitos.
+	 */
 	public int verificador_de_senhas(String senha) {
 		if(senha.length() < 6){
 			retorno = 6 - senha.length();

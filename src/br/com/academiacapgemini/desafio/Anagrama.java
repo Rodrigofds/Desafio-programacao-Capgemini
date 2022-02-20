@@ -3,6 +3,12 @@ package br.com.academiacapgemini.desafio;
 import java.util.Arrays;
 import java.util.HashMap;
 
+
+/**
+ * @author Rodrigo Ferreira
+ * @version 1.0.0
+ * 
+ */
 public class Anagrama {
 	
 	HashMap<String, Integer> dicionario = new HashMap<>();
@@ -15,6 +21,14 @@ public class Anagrama {
 		
 	}
     
+    /**
+     * @param palavra Recebe como paramentro uma String palavra que é
+	 * informanda pelo usuário.
+	 * 
+     * @return total O método retornará um valor inteiro
+	 * caso a palavra possua algum anagrama, caso contrário irá
+	 * retornar um 0(zero) se a palavra informada não possuir nenhum anagrama.
+     */
     public int haSanagramas(String palavra) {
     	palavra = palavra.toLowerCase(); // Garante que não haverá letras em caixa alta e baixa, pois "A" != "a".
     	

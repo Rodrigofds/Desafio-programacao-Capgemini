@@ -6,9 +6,10 @@ import org.junit.Test;
 import br.com.academiacapgemini.desafio.Escada;
 
 /**
- * Questao1Test - Responsável pelos testes da Classe Questao1
+ * @author Rodrigo Ferreira
+ * @version 1.0.0
  * 
- * Checa se a escada está sendo desenhada.
+ * Questao1Test - Responsável pelos testes da Classe Questao1
  * 
  * */
 public class Questao1Test {

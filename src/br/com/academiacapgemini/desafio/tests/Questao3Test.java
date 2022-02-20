@@ -5,6 +5,12 @@ import org.junit.Test;
 
 import br.com.academiacapgemini.desafio.Anagrama;
 
+/**
+ * @author Rodrigo Ferreira
+ * @version 1.0.0
+ * 
+ * Questao3Test - Responsável pelos testes da Classe Questao3
+ */
 public class Questao3Test {
 
 	@Test
