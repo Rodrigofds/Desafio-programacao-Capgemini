@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Questao2 {
     public static void main(String[] args) {
 
+    	Senha passwd = new Senha();
         String login;
         String senha;
-        Senha passwd = new Senha();
         int digitos;
         
         Scanner entrada = new Scanner(System.in);
