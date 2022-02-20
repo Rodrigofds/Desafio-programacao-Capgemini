@@ -15,7 +15,7 @@ public class Anagrama {
 		
 	}
     
-    public int checa_anagramas(String palavra) {
+    public int haSanagramas(String palavra) {
     	palavra = palavra.toLowerCase(); // Garante que não haverá letras em caixa alta e baixa, pois "A" != "a".
     	
     	for(int i = 0; i < palavra.length(); i++) {

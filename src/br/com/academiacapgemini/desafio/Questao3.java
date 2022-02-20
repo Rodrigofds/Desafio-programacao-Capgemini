@@ -11,7 +11,7 @@ public class Questao3 {
         System.out.print("Informe a palavra: ");
         String palavra = entrada.next();
 
-    	int retorno = anagrama.checa_anagramas(palavra);
+    	int retorno = anagrama.haSanagramas(palavra);
         
         System.out.println(retorno);
         entrada.close();
