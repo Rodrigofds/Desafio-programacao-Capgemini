@@ -12,6 +12,10 @@
 	Clique com o botão direito em cima do teste escolhido -> Run As -> JUnit Test.
 
 	Obs.: Necessário o JUnit 5 instalado.
+	
+### Documentação:
+
+	No projeto acesse diretório doc e abra o arquivo index.html com o seu navegador de preferência.
 
 ### Questões Propostas:
 
@@ -31,8 +35,6 @@
 	JUnit5
 	Javadoc
 
-### Documentação:
-[Clique aqui!](https://github.com/Rodrigofds/Desafio_Programacao_Capgemini/blob/master/doc/index.html "Clique aqui!")
 
 ### Contato:
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo--ferreira/)](https://www.linkedin.com/in/rodrigo--ferreira/)
